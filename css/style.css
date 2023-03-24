@@ -43,13 +43,14 @@ header {
 }
 
 .header__logo {
-    width: 45px;
-    height: 45px;
+    max-width: 100%;
+    width: 4%;
+    height: 100%;
     border-radius: 10px;
     background: #ccc;
 }
 
-.headline h1 {
+section {
     color: #eee;
     text-align: center;
     padding: 10px;
@@ -64,7 +65,7 @@ header {
     "container__footer container__footer container__footer";
     grid-gap: 10px;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 100%;
     padding: 0 20px 0 20px;
     margin: 0 auto;
 }
@@ -74,7 +75,7 @@ img {
     border-radius: 20px;
 }
 
-.container__sidenav {
+nav {
     grid-area: "container__sidenav";
     grid-row: container__sidenav;
     max-width: 300px;
